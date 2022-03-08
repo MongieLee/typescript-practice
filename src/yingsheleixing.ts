@@ -14,3 +14,7 @@ type ReadonlyObj = Readonly<Obj>;
 
 type PartialObj = Partial<Obj>;
 // 全部都是可选的
+
+type PickObj = Pick<Obj, "a" | "b">;
+
+type RecordObj = Record<"a" | "b", Obj>;
