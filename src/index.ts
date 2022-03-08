@@ -2,6 +2,7 @@ import "./function";
 import "./enum";
 import "./class";
 import "./generics";
+import "./es6/c";
 const hello: string = "hi typescript";
 
 document.querySelector(".app")!.textContent = hello;
